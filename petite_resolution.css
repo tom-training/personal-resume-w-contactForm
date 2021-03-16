@@ -1,0 +1,354 @@
+/* id on body of index page, this is to paint background */ 
+
+#menuBand
+{
+
+	background-color: rgb(227, 227, 228);
+}
+
+#indexe
+{
+	background-color: rgb(255, 255, 219);
+}
+
+/* id on body of experience page, this is to paint background and to put some space from left of screen */ 
+#experience
+{
+	background-color: rgb(255, 239, 232);	
+}
+
+/* id on body of education page, this is to paint background and to put some space from left of screen */
+#education
+{
+	background-color: rgb(199, 216, 243);
+}
+
+/* id on body of contact page, this is to paint background and to put some space from left of screen */
+#contact
+{
+	background-color: rgb(238, 204, 222);
+}
+
+
+#impressum
+{
+	background-color: rgb(227, 230, 251);
+}
+
+/* There are tags such as: <a> hyperlink  ONLY in the menu.php of navigation and in the page index   */
+a
+{
+	color: rgb(128, 0, 0);  
+}
+
+
+/* 
+ lh is a class for the List Headings english/french/german and home/experience/education/contact 
+ */
+
+.lh
+{
+	text-decoration: none;
+	list-style: none;
+}
+
+/* navig is a class for the "tell me more" <a> in the index.php as well as the home/experience/education/contact */
+.navig
+{
+	text-decoration: none;
+	list-style: none;
+}
+
+/* lay out of the menu.php page with flexbox   MENU.php  MENU.php  MENU.php */
+
+/* conteneur is circumventing the whole page page menu.php  */
+#conteneur
+{
+	display: flex;
+	justify-content: space-between; 
+	background-color: rgb(227, 227, 227);
+}
+
+/* elementConteneur1 include the left block and split Thomas Gue vs languages in column */
+
+#elementConteneur1
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*elementConteneur2 include the right block: home-experience-educ-contact, no special properties*/
+
+
+/* within the left block, entete1 includes the name (part of elementConteneur1) */
+#entete1
+{
+	padding-left: 1em;
+}
+
+/* within the left block, entete2 includes languages (part of elementConteneur1) */
+#entete2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 0.8em;
+	font-family: tahoma;
+}
+
+/* within the left lower block, ie French, elementsousConteneur1 is part of entete2 */
+
+#elementsousConteneur1
+{
+	text-align: left;
+}
+
+
+#elementsousConteneur2
+{
+	text-align: left;
+	padding-left: 1em;
+}
+
+/* within the left lower block, ie German, elementsousConteneur3 is part of entete2 */
+#elementsousConteneur3
+{
+	text-align: left;
+	padding-left: 1em;
+}
+
+/* To the right end Top corner of the menu.php */
+
+/* menunavig include the home/work/education/contact is going to split them with flexbox  */
+#menunavig
+{
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 0.9em;
+	font-family: Arial black, Arial, Verdana, sans-serif;
+}
+
+/* menunavigElement1 i.e. home is part of menunavig  */
+
+
+#menunavigElement1
+{
+	 padding-right: 1em;
+}
+
+/* menunavigElement2 i.e. work exp is part of menunavig  */
+ 
+#menunavigElement2
+{
+	padding-right: 1em;
+}
+
+/* menunavigElement3 i.e. education is part of menunavig  */
+
+#menunavigElement3
+{
+	padding-right: 1em;
+}
+
+
+#menunavigElement5
+{
+	padding-right: 1em;
+	
+}
+
+/* END OF THE STYLING AND STRUCTURING OF THE MENU.php */
+
+/* Style of the sections: professional experience, education, hobbies, contact...  */
+
+h1
+{
+	font-size: 1.3em;
+	color: white;
+	text-align: center;
+	font-family: verdana;
+	text-shadow: 1px 1px 1px rgb(154, 154, 154);
+}
+
+/* Style for my name on the menu.php  */
+.moi
+{
+	font-size: 1.5em;
+	font-family: verdana;
+}
+
+/* style applicable to the articles of the index.php */
+.articleIndex
+{
+	text-align: center;
+}
+
+
+.articleIndexText
+{
+	font-size: 0.8em;
+	font-family: tahoma;
+}
+
+
+.articleIndexSlogan
+{
+	font-size: 1.3em;
+	font-family: tahoma;
+}
+
+
+.articleIndexButton
+{
+	font-size: 1.2em;
+	color: white;
+	background-color: rgb(154, 154, 154);
+	font-family: Alegreya Sans, Arial black;
+}
+
+/* EXPERIENCE.PHP      EXPERIENCE.PHP    EXPERIENCE.PHP  */
+/* style to the headings of all my job experiences within experience section  */
+
+.job
+{
+	font-size: 0.8em;
+	color: rgb(104, 0, 0);
+	font-family: tahoma;
+}
+
+#contenaireExperience
+{
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-between;	
+}
+
+#contenaireGauche
+{
+	padding-left: 1em;
+}
+
+.descr
+{
+	font-size: 1em;
+	color: rgb(87, 44, 0);
+	font-family: comic sans ms;
+}
+
+.syst
+{
+	font-size: 1em;
+	color: rgb(91, 91, 0);
+	font-family: comic sans ms;
+}
+
+.date
+{
+	font-size: 1em;
+	color: rgb(142, 0, 0);
+	font-family: comic sans ms;
+}
+
+.contract
+{
+	font-size: 1em;
+	color: rgb(0, 0, 142);
+	font-family: comic sans ms;
+}
+
+/* END OF DESIGN OF EXPERIENCE  END OF DESIGN OF EXPERIENCE*/
+/* DESIGN OF EDUCATION  DESIGN OF EDUCATION*/
+
+#containerEducation
+{
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#containerGaucheEduc
+{
+	padding-left: 1em;
+}
+
+.year
+{
+	font-size: 1em;
+	color: black;
+	font-family: tahoma;
+}
+
+.yearEduc
+{
+	font-size: 0.8em;
+	color: navy;
+	font-family: tahoma;
+}
+
+/* END OF DESIGN OF EDUCATION  END OF DESIGN OF EDUCATION*/
+/* START OF DESIGN OF CONTACT*/
+
+#containerContact
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;	
+}
+
+/* style of the articles within the contact.php  */
+.artContact
+{
+	padding-left: 2em;
+}
+
+.plsContact
+{
+	color: black;
+	font-size: 0.8em;
+	font-family: tahoma;
+}
+
+.grandePix
+{
+	display: none;
+}
+
+.petitePix
+{
+	display: block;
+}
+
+.bigPixOfMe
+{
+	display: none;
+}
+
+.smallPixOfMe
+{
+	display: block;
+}
+
+#containerImpressum
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	font-family: Alegreya Sans, Aryan black, Verdana;
+}
+
+
+/* this button enables the escape from the dataprotection narrative webpage */
+.dataButton
+{
+	font-size: 0.8em;
+	color: white;
+	background-color: rgb(154, 154, 154);
+	font-family: Alegreya Sans, tahoma;
+}
+
+
